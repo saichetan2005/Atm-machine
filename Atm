@@ -1,0 +1,13 @@
+x=input("Enter your name: ")
+y=input("Enter 5 digit AC Number: ")
+z=len(y)
+if (z==5):
+    print("********")
+    print("Welcome",x)
+    a=int(input("Enter withdrawl Amount: "))
+    b=10000-a
+    print("your remaining balance :",b)
+    if b<=50000:
+        print("low Balance in your Account")
+else:
+    print("Invalid user ID Number")
